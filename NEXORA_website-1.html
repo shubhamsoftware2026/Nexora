@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NEXORA builds useful software and explores future technology. Innovate Today. Shape Tomorrow.">
+  <title>NEXORA | Innovate Today. Shape Tomorrow.</title>
+  <style>
+    :root{--bg:#050b18;--panel:#0c1730;--blue:#08bfff;--cyan:#45e7ff;--white:#f5f9ff;--muted:#b8c6dd}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--white);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(5,11,24,.94);backdrop-filter:blur(10px);border-bottom:1px solid #183153}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-size:1.55rem;font-weight:900;letter-spacing:3px;color:var(--white)}
+    .brand span{color:var(--cyan)}
+    .links{display:flex;gap:20px;flex-wrap:wrap;font-size:.94rem;color:var(--muted)}
+    .links a:hover{color:var(--cyan)}
+    .hero{padding:86px 0 70px;background:radial-gradient(ellipse at 80% 20%,#063e78 0%,transparent 42%),linear-gradient(145deg,#050b18,#09172d)}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:36px}
+    .eyebrow{display:inline-block;border:1px solid #087eae;border-radius:99px;padding:6px 13px;color:var(--cyan);font-size:.82rem;margin-bottom:18px}
+    h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.03;letter-spacing:-2px;margin-bottom:20px}
+    h1 span{color:var(--cyan)}
+    .hero p{max-width:590px;color:var(--muted);font-size:1.08rem;margin-bottom:26px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 19px;border-radius:9px;font-weight:700;border:1px solid #1689b8}
+    .primary{background:linear-gradient(90deg,#078be8,#20d6f2);color:#03101d;border:none}
+    .secondary{color:var(--white);background:#0b1930}
+    .orbit-card{min-height:300px;display:grid;place-items:center;border:1px solid #145b8a;border-radius:24px;background:linear-gradient(145deg,#0d2342,#050b18);box-shadow:0 0 55px #008bd522;text-align:center;padding:25px}
+    .orbit{width:155px;height:155px;border:3px solid var(--cyan);border-radius:50%;display:grid;place-items:center;box-shadow:0 0 28px #08bfff66;position:relative;font-size:4rem;font-weight:900}
+    .orbit:after{content:"";position:absolute;width:205px;height:65px;border:3px solid #168fff;border-radius:50%;transform:rotate(-25deg)}
+    .orbit-card strong{display:block;font-size:1.2rem;letter-spacing:3px;margin-top:24px}
+    .orbit-card small{color:var(--muted)}
+    section{padding:70px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 34px}
+    .section-head h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:10px}
+    .section-head p{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--panel);border:1px solid #1b3455;border-radius:16px;padding:24px}
+    .icon{font-size:2rem;margin-bottom:12px}
+    .card h3{margin-bottom:8px}
+    .card p{color:var(--muted);font-size:.95rem}
+    .vision{background:#081328;border-top:1px solid #142746;border-bottom:1px solid #142746}
+    .vision-box{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+    .vision-box h2{font-size:2.2rem;margin-bottom:12px}
+    .vision-box p{color:var(--muted)}
+    .steps{display:grid;gap:12px}
+    .step{padding:14px 16px;border-radius:10px;background:#0d1d37;border-left:3px solid var(--cyan)}
+    .step b{color:var(--cyan)}
+    .contact{text-align:center}
+    .contact p{color:var(--muted);max-width:600px;margin:0 auto 22px}
+    footer{border-top:1px solid #183153;padding:24px 0;color:var(--muted);font-size:.88rem}
+    .foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:760px){.hero-grid,.vision-box{grid-template-columns:1fr}.hero{padding:60px 0}.orbit-card{min-height:250px}.cards{grid-template-columns:1fr}.links{gap:11px;font-size:.82rem}nav{align-items:flex-start;padding:15px 0;flex-direction:column}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#home">NEX<span>O</span>RA</a>
+        <div class="links">
+          <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#vision">Vision</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">FUTURE-FOCUSED TECHNOLOGY</span>
+          <h1>Innovate Today.<br><span>Shape Tomorrow.</span></h1>
+          <p>NEXORA is a technology brand concept focused on building useful software today and learning the technologies that may shape tomorrow—from AI to mobility and space research.</p>
+          <div class="buttons">
+            <a class="btn primary" href="#services">Explore Services</a>
+            <a class="btn secondary" href="#about">Discover NEXORA</a>
+          </div>
+        </div>
+        <div class="orbit-card">
+          <div>
+            <div class="orbit">N</div>
+            <strong>NEXORA</strong>
+            <small>Innovate Today. Shape Tomorrow.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Technology for a Better Tomorrow</h2>
+          <p>NEXORA starts with learning, practical projects, and simple digital solutions. Our long-term vision is to explore more advanced technology responsibly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="padding-top:0">
+      <div class="wrap">
+        <div class="cards">
+          <article class="card"><div class="icon">🤖</div><h3>NEXORA AI</h3><p>Explore AI tools and smart assistants that can help people learn and work more efficiently.</p></article>
+          <article class="card"><div class="icon">💻</div><h3>NEXORA Software</h3><p>Build simple websites, business tools, and apps that solve real customer problems.</p></article>
+          <article class="card"><div class="icon">🚗</div><h3>NEXORA Mobility</h3><p>Learn about electric-vehicle software, embedded systems, and cleaner mobility technology.</p></article>
+          <article class="card"><div class="icon">🚀</div><h3>NEXORA Space</h3><p>Study programming, robotics, physics, and aerospace concepts for future exploration.</p></article>
+          <article class="card"><div class="icon">🔬</div><h3>NEXORA Research</h3><p>Test ideas, build prototypes, and keep improving through practical learning.</p></article>
+          <article class="card"><div class="icon">🌐</div><h3>Digital Solutions</h3><p>Make technology easier to use for students, local shops, and small businesses.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <div class="wrap vision-box">
+        <div>
+          <h2>Our Vision</h2>
+          <p>Start small. Learn every day. Build useful products. Grow through trust, teamwork, and real customer value. Advanced fields such as AI, EVs, and space technology are long-term goals that require knowledge, resources, and experienced teams.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><b>01 / Learn</b><br>Programming and core engineering</div>
+          <div class="step"><b>02 / Build</b><br>Small projects and prototypes</div>
+          <div class="step"><b>03 / Help</b><br>Solve real customer problems</div>
+          <div class="step"><b>04 / Grow</b><br>Improve products and expand responsibly</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Let’s Build the Future</h2>
+          <p>This is the first website draft for NEXORA. Add your real business email, phone number, and social links before publishing it for customers.</p>
+        </div>
+        <a class="btn primary" href="mailto:hello@nexora.example">Contact NEXORA</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© <span id="year"></span> NEXORA. All rights reserved.</span>
+      <span>Innovate Today. Shape Tomorrow.</span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
